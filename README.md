@@ -25,66 +25,54 @@
 
 - ## Quick Start 🔥
 
-    > _**The simplest, fastest, most organized and stable way to build libraries and packages.**_
+    > ..
 
-    - #### Setup
+    - ### Setup
 
         > install [`hmm`](https://github.com/minejs-org/hmm) first.
 
-        - ##### Create
-
-            ```bash
-            > hmm init <name> -t lib    # This will clone this repo and make some changes to suit your lib.
-            > cd <name>                 # Go to the project directory
-            > hmm install               # Install the dependencies
-            ```
-
-        - ##### Manage
-
-            ```bash
-            > hmm build         # To build your lib
-            > hmm test          # To test  your lib
-            > hmm lint          # To lint  your lib
-            > hmm start         # To start your lib
-            > hmm publish       # To publish on `npm`
-            ```
-
-        - ##### Fianlly
-
-            ```bash
-            # to install your library after publishing on `npm`
-            hmm i {{tag}}
-            ```
-
-            ```ts
-            // to import your library after installing via `hmm`
-            import * as {{name}} from `{{tag}}`;
-            ```
+        ```bash
+        hmm i {{tag}}
+        ```
 
     <div align="center"> <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/> <br> </div>
 
-    - #### Structure
+    - ### Usage
 
-        - ##### Root
+        ```ts
+        import * as {{name}} from `{{tag}}`;
+        ```
 
-            ```bash
-            ┣ assets
-            ┃ ┗ ...            #  (logo.png, ..)
-            ┃
-            ┣ dist
-            ┃ ┗ ...            # (index.js, index.js.map, ..)
-            ┃
-            ┣ src
-            ┃ ┗ index.ts       # Main entry point
-            ┃
-            ┣ test
-            ┃ ┗ index.test.ts  # Main test file
-            ┃
-            ┣ .env              # Environment configuration file
-            ┗ .hmm              # Space configuration file
+        - ### 1. ..
 
-            # You can safely hide/ignore the rest of files.
+            ```typescript
+            ..
             ```
+
+        - ### 2. ..
+
+            ```typescript
+            ..
+            ```
+
+    <br>
+
+- ## API Reference 🔥
+
+    - #### `..`
+        > ..
+
+        ```typescript
+        ..
+        ```
+
+    - #### `..`
+
+        > ..
+
+        ```typescript
+        ..
+        ```
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
 
@@ -97,7 +85,7 @@
 ---
 
 <div align="center">
-    <a href="https://github.com/minejs-org/hmm"><img src="https://img.shields.io/badge/by-hmm-black"/></a>
+    <a href="https://github.com/maysara-elshewehy"><img src="https://img.shields.io/badge/by-Maysara-black"/></a>
 </div>
 
 <!-- ╚═════════════════════════════════════════════════════════════════╝ -->
